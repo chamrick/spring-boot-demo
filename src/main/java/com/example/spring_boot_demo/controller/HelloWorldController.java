@@ -1,12 +1,12 @@
-package com.example.spring_boot_demo;
+package com.example.spring_boot_demo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class GreetingController {
+public class HelloWorldController {
 
-    @RequestMapping("/")
+    @RequestMapping("/hello/world")
     public String getGreeting() {
         return "Hello, World!";
     }
