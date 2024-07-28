@@ -22,7 +22,7 @@ public class HelloWorldController {
     }
 
     @RequestMapping("/hello/world")
-    public ReturnObjectBean getGreeting() {
+    private ReturnObjectBean getGreeting() {
         return new ReturnObjectBean();
     }
 }
